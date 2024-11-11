@@ -1,0 +1,129 @@
+/* App Styles */
+.doctors_page {
+    -fx-background-color: #F5F7F8;
+}
+
+/* Specialization Selection Styles */
+.specialization_container {
+    -fx-background-color: #F5F7F8;
+}
+
+.specialization_container VBox {
+    -fx-background-color: #17252A;
+    -fx-background-radius: 10 10 0 0;
+    -fx-border-radius: 10 10 0 0;
+    -fx-border-color: #17252A;
+    -fx-border-width: 2;
+}
+
+.specialization_container VBox Text {
+    -fx-fill: #F5F7F8;
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-font-family: Inter;
+}
+
+.specialization_container > .list-view {
+    -fx-border-color: #17252A;
+    -fx-border-width: 2;
+    -fx-font-size: 12;
+    -fx-font-family: Inter;
+}
+
+/* Search Bar Styles */
+.doctor_search_box_container {
+    -fx-background-color: #F5F7F8;
+    -fx-alignment: center;
+    -fx-spacing: 25;
+}
+
+.doctor_search_box_container TextField {
+    -fx-background-image:url('../Icons/SearchIcon.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 10px center;
+    -fx-background-size: 30 30;
+    -fx-pref-height: 40;
+    -fx-pref-width: 600;
+    -fx-prompt-text-fill: #17252AB5;
+    -fx-padding: 5 0 5 50;
+    -fx-font-size: 18;
+    -fx-font-family: Inter;
+    -fx-text-fill: #17252A;
+    -fx-border-color: #17252A;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-border-width: 2;
+    -fx-effect: dropshadow(three-pass-box, #17252AB5, 3, 0, 0, 3);
+}
+
+.doctor_search_box_container Button {
+    -fx-pref-width: 150;
+    -fx-pref-height: 40;
+    -fx-background-color: #17252A;
+    -fx-background-radius: 10;
+    -fx-border-color: #17252A;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+    -fx-text-fill: #F5F7F8;
+    -fx-font-size: 15;
+    -fx-font-family: Inter;
+    -fx-font-weight: bold;
+}
+
+.doctor_search_box_container Button:hover {
+    -fx-effect: dropshadow(three-pass-box, #17252AB5, 3, 0, 0, 3);
+    -fx-cursor: hand;
+}
+
+/* Sorting Section Styles */
+.doctor_sorting_container {
+    -fx-background-color: #F5F7F8;
+    -fx-alignment: center_left;
+    -fx-spacing: 15;
+    -fx-padding: 0 0 0 20;
+}
+
+.doctor_sorting_container Text {
+    -fx-fill: #17252A;
+    -fx-font-size: 20;
+    -fx-font-family: Inter;
+    -fx-font-weight: bold;
+}
+
+.doctor_sorting_container RadioButton {
+    -fx-text-fill: #17252A;
+    -fx-font-size: 15;
+    -fx-font-family: Inter;
+}
+
+.doctor_sorting_container RadioButton FontAwesomeIconView {
+    -fx-fill: #17252A;
+}
+
+.doctor_cards .list-view {
+    -fx-background-color: #F5F7F8;
+    -fx-border-width: 0;
+}
+
+.doctor_cards .list-cell {
+    -fx-background-color: #F5F7F8;
+    -fx-spacing: 10 5 10 5;
+}
+
+/* Add Doctor Button */
+.add_doctor_btn {
+    -fx-background-color: #3AAFA9;
+    -fx-background-radius: 5;
+    -fx-border-color: #2B7A78;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-font-size: 15;
+    -fx-font-family: Inter;
+    -fx-font-weight: bold;
+    -fx-text-fill: #17252A;
+}
+
+.add_doctor_btn:hover {
+    -fx-effect: dropshadow(three-pass-box, #17252AB5, 3, 0, 0, 3);
+    -fx-cursor: hand;
+}

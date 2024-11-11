@@ -1,0 +1,94 @@
+.doctor_card {
+    -fx-background-color: #F5F7F8;
+    -fx-background-radius: 5;
+    -fx-border-color: #17252A;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3);
+}
+
+.doctor_card Label {
+    -fx-text-fill: #17252A;
+    -fx-font-family: "Calibri Light";
+    -fx-font-size: 15;
+}
+
+/* Left Container */
+.doctor_card_left_container {
+    -fx-background-color: #F5F7F8;
+    -fx-spacing: 20;
+    -fx-padding: 10;
+}
+
+.doctor_card_left_container Label {
+    -fx-text-fill: #17252A;
+    -fx-font-family: "Calibri Light";
+    -fx-font-size: 15;
+    -fx-wrap-text: true;
+}
+
+#doctor_name_lbl {
+    -fx-text-fill: #17252A;
+    -fx-font-family: "Calibri Light";
+    -fx-font-size: 15;
+    -fx-wrap-text: true;
+}
+
+/* Review Point Styles */
+.doctor_card_left_container VBox {
+    -fx-alignment: center;
+    -fx-spacing: 10;
+}
+
+.doctor_card_left_container Text {
+    -fx-fill: #17252A;
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-font-family: Calibri;
+}
+
+.doctor_card_left_container VBox HBox {
+    -fx-alignment: center;
+    -fx-spacing: 5;
+}
+
+.doctor_card_left_container VBox HBox Label {
+    -fx-text-fill: #2B7A78;
+    -fx-font-size: 18;
+    -fx-font-family: Inter;
+}
+
+.doctor_card_left_container VBox HBox FontAwesomeIconView {
+    -fx-fill: #17252A;
+}
+
+/* Feedback Container Styles */
+#feedback_title {
+    -fx-text-fill: #17252A;
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-font-family: Inter;
+}
+
+#feedback_msg {
+    -fx-text-fill: #17252A;
+    -fx-font-size: 15;
+    -fx-font-weight: normal;
+    -fx-font-family: "Calibri Light";
+}
+
+/* Admin Delete Button */
+#delete_btn {
+    -fx-border-radius: 5;
+    -fx-border-color: #CC0000;
+    -fx-border-width: 2;
+    -fx-background-color: #F5F7F8;
+    -fx-text-fill: #CC0000;
+    -fx-font-size: 15;
+    -fx-font-family: Calibri;
+    -fx-font-weight: bold;
+}
+
+#delete_btn FontAwesomeIconView {
+    -fx-fill: #CC0000;
+}

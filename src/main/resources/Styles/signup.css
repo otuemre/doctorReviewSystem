@@ -1,0 +1,123 @@
+/* Logo Holder Styles */
+.signup_logo_container {
+    -fx-background-color: #2B7A78;
+}
+
+.signup_logo_container ImageView {
+    -fx-pref-height: 600;
+    -fx-pref-width: 600;
+}
+
+/* Form Holder Styles */
+.signup_form_holder {
+    -fx-background-color: #F5F7F8;
+}
+
+.signup_form_container {
+    -fx-background-color: #F5F7F8;
+    -fx-border-color: #17252A;
+    -fx-border-radius: 10;
+    -fx-spacing: 20;
+    -fx-padding: 10;
+}
+
+.signup_form_container Label {
+    -fx-text-fill: #17252A;
+    -fx-font-size: 20;
+    -fx-font-family: Inter;
+}
+
+.signup_form_container TextField {
+    -fx-pref-height: 50;
+    -fx-pref-width: 500;
+    -fx-background-color: #FEFFFF;
+    -fx-border-color: #17252A;
+    -fx-font-size: 20;
+    -fx-prompt-text-fill: #17252A;
+    -fx-padding: 5;
+    -fx-font-family: Inter;
+}
+
+.signup_form_container PasswordField {
+    -fx-pref-height: 50;
+    -fx-pref-width: 500;
+    -fx-background-color: #FEFFFF;
+    -fx-border-color: #17252A;
+    -fx-font-size: 20;
+    -fx-prompt-text-fill: #17252A;
+    -fx-padding: 5;
+    -fx-font-family: Inter;
+}
+
+.signup_form_container DatePicker {
+    -fx-pref-height: 50;
+    -fx-pref-width: 550;
+    -fx-background-color: #FEFFFF;
+    -fx-border-color: #17252A;
+    -fx-font-size: 20;
+    -fx-prompt-text-fill: #17252A;
+    -fx-padding: 5;
+    -fx-font-family: Inter;
+}
+
+.signup_form_container .month-year-pane {
+    -fx-padding: 10;
+}
+
+.signup_form_container Button {
+    -fx-pref-width: 550;
+    -fx-pref-height: 50;
+    -fx-background-color: #17252A;
+    -fx-text-fill: #F5F7F8;
+    -fx-font-size: 24;
+    -fx-border-radius: 5;
+    -fx-border-color: #17252A;
+    -fx-font-weight: bold;
+}
+
+.signup_form_container Button:hover {
+    -fx-text-fill: #2B7A78;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3);
+}
+
+#signup_form_logout_btn {
+    -fx-pref-width: 550;
+    -fx-pref-height: 50;
+    -fx-background-color: #CC0000;
+    -fx-text-fill: #F5F7F8;
+    -fx-border-color: #CC0000;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+#signup_form_logout_btn:hover {
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3);
+}
+
+#signup_form_logout_btn FontAwesomeIconView {
+    -fx-fill: #F5F7F8;
+}
+
+.error_label {
+    -fx-text-fill: #CC0000;
+    -fx-font-size: 18;
+}
+
+#signup_title {
+    -fx-font-size: 32;
+    -fx-font-weight: bold;
+}
+
+/* Sign In Labels */
+.sign_in_holder {
+    -fx-spacing: 15 ;
+}
+
+#signin_lbl {
+    -fx-text-fill: #3AAFA9;
+}
+
+#signin_lbl:hover {
+    -fx-text-fill: #2B7A78;
+    -fx-underline: true;
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" stylesheets="@../Styles/login.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gp.doctorreview.Controllers.LoginController">
+   <right>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="683.0" styleClass="login_logo_container" BorderPane.alignment="CENTER">
+         <ImageView fitHeight="500.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@../Images/LoginImage.png" />
+         </ImageView>
+      </VBox>
+   </right>
+   <left>
+      <AnchorPane focusTraversable="true" prefHeight="200.0" prefWidth="683.0" styleClass="login_form_holder" BorderPane.alignment="CENTER">
+         <VBox layoutX="66.0" layoutY="44.0" prefHeight="680.0" prefWidth="550.0" spacing="10.0" styleClass="login_form_container" AnchorPane.leftAnchor="66.0" AnchorPane.topAnchor="44.0">
+            <ImageView fitHeight="140.0" fitWidth="213.0" pickOnBounds="true" preserveRatio="true">
+               <Image url="@../Images/Logo.png" />
+            </ImageView>
+            <Label id="login_title" text="Sign In" />
+            <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="528.0" styleClass="sign_up_holder">
+               <Label text="New to Review System?" />
+               <Label id="create_account_lbl" fx:id="create_account_lbl" text="Create an Account" />
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </HBox>
+            <TextField fx:id="email_field" accessibleHelp="Please, type your email." promptText="Email *">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin></TextField>
+            <PasswordField fx:id="password_field" promptText="Password *">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin></PasswordField>
+            <Button fx:id="signin_btn" mnemonicParsing="false" text="Sign In" />
+            <Line endX="250.0" fill="#17252a" stroke="#17252a">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="150.0" top="10.0" />
+               </VBox.margin>
+            </Line>
+            <Button id="login_form_logout_btn" fx:id="logout_btn" mnemonicParsing="false" text="Exit" />
+            <Label fx:id="error_msg" styleClass="error_label">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin></Label>
+         </VBox>
+      </AnchorPane>
+   </left>
+</BorderPane>

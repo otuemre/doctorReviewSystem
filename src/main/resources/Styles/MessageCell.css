@@ -1,0 +1,24 @@
+
+.message_cell_container {
+    -fx-background-radius: 20;
+}
+
+.message_cell_container HBox {
+    -fx-padding: 0 0 0 20;
+    -fx-spacing: 10;
+}
+
+.message_cell_container Label {
+    -fx-text-fill: #17252A;
+    -fx-font-family: Inter;
+    -fx-font-size: 18;
+}
+
+#date_lbl {
+    -fx-font-family: "Calibri Light";
+    -fx-font-size: 15;
+}
+
+.message_cell_container Button {
+    -fx-background-color: #17252A;
+}

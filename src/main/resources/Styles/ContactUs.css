@@ -1,0 +1,106 @@
+
+.contact_us_page {
+    -fx-background-color: #F5F7F8;
+}
+
+.contact_us_page Text {
+    -fx-fill: #17252A;
+    -fx-font-size: 40;
+    -fx-font-weight: bold;
+    -fx-font-family: Inter;
+}
+
+.contact_us_container {
+    -fx-background-color: #F5F7F8;
+    -fx-background-radius: 10;
+    -fx-border-color: #17252A;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+    -fx-padding: 25;
+    -fx-spacing: 15;
+    -fx-alignment: center_left;
+}
+
+.contact_us_container TextField {
+    -fx-background-color: #FEFFFF;
+    -fx-border-color: #17252A;
+    -fx-border-width: 1;
+    -fx-pref-width: 450;
+    -fx-pref-height: 50;
+    -fx-prompt-text-fill: #17252A;
+    -fx-font-family: Inter;
+    -fx-font-size: 18;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3);
+}
+
+.contact_us_container ChoiceBox {
+    -fx-background-color: #FEFFFF;
+    -fx-border-color: #17252A;
+    -fx-border-width: 1;
+    -fx-pref-width: 450;
+    -fx-pref-height: 50;
+    -fx-font-size: 18;
+    -fx-font-family: Inter;
+}
+
+.contact_us_container TextArea{
+    -fx-background-color: #FEFFFF;
+    -fx-border-color: #17252A;
+    -fx-border-width: 1;
+    -fx-pref-width: 450;
+    -fx-pref-height: 150;
+    -fx-prompt-text-fill: #17252A;
+    -fx-font-family: Inter;
+    -fx-font-size: 18;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3);
+}
+
+.contact_us_container Button {
+    -fx-background-color: #17252A;
+    -fx-background-radius: 10;
+    -fx-border-color: #17252A;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-pref-width: 450;
+    -fx-pref-height: 60;
+    -fx-text-fill: #F5F7F8;
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+    -fx-font-family: Inter;
+}
+
+.contact_us_container Button:hover {
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3);
+    -fx-cursor: hand;
+}
+
+.err_msg {
+    -fx-text-fill: #CC0000;
+    -fx-font-family: Inter;
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+
+/* Admin Settings */
+#msg_delete_btn {
+    -fx-background-color: #F5F7F8;
+    -fx-background-radius: 10;
+    -fx-border-color: #CC0000;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-pref-width: 450;
+    -fx-pref-height: 60;
+    -fx-text-fill: #CC0000;
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+    -fx-font-family: Inter;
+}
+
+#msg_delete_btn:hover {
+    -fx-effect: dropshadow(three-pass-box, #CC0000, 3, 0, 0, 3);
+    -fx-cursor: hand;
+}
+
+.messages_listview {
+    -fx-background-color: #F5F7F8;
+}

@@ -1,0 +1,54 @@
+
+.doctor_cell_container {
+    -fx-background-color: #FEFFFF;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 5, 0, 0, 7);
+}
+
+.doctor_cell_container FontAwesomeIconView {
+    -fx-fill: #17252A;
+}
+
+.doctor_cell_container Label {
+    -fx-font-family: Calibri;
+    -fx-text-fill: #17252A;
+    -fx-font-size: 18;
+    -fx-wrap-text: true;
+}
+
+.doctor_cell_container Line {
+    -fx-stroke: #AAAAAA;
+}
+
+.spec_lbl {
+    -fx-font-family: "Calibri Light";
+    -fx-font-size: 15;
+    -fx-pref-height: 60;
+    -fx-wrap-text: true;
+}
+
+.total_view_lbl {
+    -fx-text-fill: #2B7A78;
+}
+
+.total_view_icon {
+    -fx-fill: #2B7A78;
+}
+
+.detail_btn {
+    -fx-background-color: #17252A;
+    -fx-background-radius: 5;
+    -fx-text-fill: #F5F7F8;
+    -fx-border-color: #17252A;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-pref-height: 40;
+}
+
+.detail_btn FontAwesomeIconView {
+    -fx-fill: #F5F7F8;
+}
+
+.detail_btn:hover {
+    -fx-cursor: hand;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane prefHeight="60.0" prefWidth="770.0" styleClass="doctor_cell_container" stylesheets="@../../Styles/DoctorCell.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <FontAwesomeIconView glyphName="STETHOSCOPE" layoutX="14.0" layoutY="40.0" size="30" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="15.0" />
+   <Button fx:id="see_detail_btn" layoutX="716.0" layoutY="11.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="39.0" styleClass="detail_btn" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="10.0">
+      <graphic>
+         <FontAwesomeIconView glyphName="LONG_ARROW_RIGHT" size="18" wrappingWidth="18.0" />
+      </graphic>
+   </Button>
+   <Label fx:id="name_lbl" layoutX="64.0" layoutY="18.0" prefHeight="22.0" prefWidth="142.0" text="Dr. Micheal Smith" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="20.0" />
+   <Label fx:id="spec_lbl" layoutX="218.0" layoutY="-2.0" prefHeight="66.0" prefWidth="154.0" styleClass="spec_lbl" text="Orthopedics" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="218.0" AnchorPane.topAnchor="0.0" />
+   <Label fx:id="review_point_lbl" layoutX="378.0" layoutY="20.0" text="4.5 / 5.0" AnchorPane.rightAnchor="248.0" AnchorPane.topAnchor="20.0" />
+   <Label fx:id="total_view_lbl" layoutX="559.0" layoutY="19.0" styleClass="total_view_lbl" text="119 Total View" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="20.0" />
+   <FontAwesomeIconView glyphName="STAR" layoutX="535.0" layoutY="37.0" size="15" text="" AnchorPane.rightAnchor="230.0" AnchorPane.topAnchor="21.0" />
+   <FontAwesomeIconView glyphName="EYE" layoutX="682.0" layoutY="36.0" size="15" styleClass="total_view_icon" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="23.142857551574707" />
+   <Line endY="30.0" layoutX="390.0" layoutY="16.0" AnchorPane.leftAnchor="389.5" AnchorPane.topAnchor="15.5" />
+</AnchorPane>

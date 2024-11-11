@@ -1,0 +1,115 @@
+/* Logo Holder Styles */
+.login_logo_container {
+    -fx-background-color: #2B7A78;
+}
+
+.login_logo_container ImageView {
+    -fx-pref-height: 600;
+    -fx-pref-width: 600;
+}
+
+/* Form Holder Styles */
+.login_form_holder {
+    -fx-background-color: #F5F7F8;
+}
+
+.login_form_container {
+    -fx-background-color: #F5F7F8;
+    -fx-border-color: #17252A;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+    -fx-spacing: 10;
+    -fx-padding: 10;
+}
+
+.login_form_container Label {
+    -fx-text-fill: #17252A;
+    -fx-font-size: 20;
+    -fx-font-family: Inter;
+}
+
+.login_form_container TextField {
+    -fx-pref-height: 50;
+    -fx-pref-width: 500;
+    -fx-background-color: #FEFFFF;
+    -fx-border-color: #17252A;
+    -fx-border-width: 2;
+    -fx-font-size: 20;
+    -fx-prompt-text-fill: #17252A;
+    -fx-padding: 5;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3);
+}
+
+.login_form_container PasswordField {
+    -fx-pref-height: 50;
+    -fx-pref-width: 500;
+    -fx-background-color: #FEFFFF;
+    -fx-border-color: #17252A;
+    -fx-border-width: 2;
+    -fx-font-size: 20;
+    -fx-prompt-text-fill: #17252A;
+    -fx-padding: 5;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3);
+}
+
+.login_form_container Button {
+    -fx-pref-width: 550;
+    -fx-pref-height: 50;
+    -fx-background-color: #17252A;
+    -fx-text-fill: #F5F7F8;
+    -fx-font-size: 24;
+    -fx-border-radius: 5;
+    -fx-border-color: #17252A;
+    -fx-border-width: 3;
+    -fx-font-weight: bold;
+}
+
+.login_form_container Button:hover {
+    -fx-text-fill: #2B7A78;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3);
+    -fx-cursor: hand;
+}
+
+#login_form_logout_btn {
+    -fx-pref-width: 550;
+    -fx-pref-height: 50;
+    -fx-background-color: #CC0000;
+    -fx-text-fill: #F5F7F8;
+    -fx-border-color: #CC0000;
+    -fx-border-radius: 10;
+    -fx-border-width: 3;
+    -fx-background-radius: 10;
+}
+
+#login_form_logout_btn:hover {
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3);
+    -fx-cursor: hand;
+}
+
+#login_form_logout_btn FontAwesomeIconView {
+    -fx-fill: #F5F7F8;
+}
+
+.error_label {
+    -fx-text-fill: #CC0000;
+    -fx-font-size: 18;
+}
+
+#login_title {
+    -fx-font-size: 32;
+    -fx-font-weight: bold;
+}
+
+/* Sign Up Labels */
+.sign_up_holder {
+    -fx-spacing: 15 ;
+}
+
+#create_account_lbl {
+    -fx-text-fill: #3AAFA9;
+}
+
+#create_account_lbl:hover {
+    -fx-text-fill: #2B7A78;
+    -fx-underline: true;
+}

@@ -1,0 +1,200 @@
+
+.doctor_details_page {
+    -fx-background-color: #F5F7F8;
+}
+
+.doctor_details_page Text {
+    -fx-fill: #17252A;
+    -fx-font-size: 28;
+    -fx-font-family: Inter;
+    -fx-font-weight: bold;
+}
+
+/* Doctor Detail Card */
+.doctor_card_container {
+    -fx-background-color: #F5F7F8;
+}
+
+.doctor_card_image {
+    -fx-background-color: #17252A;
+    -fx-background-radius: 10 40 40 10;
+    -fx-border-color: #17252A;
+    -fx-border-width: 2 0 2 2;
+    -fx-border-radius: 10 0 0 10;
+    -fx-alignment: center;
+    -fx-spacing: 10;
+}
+
+.doctor_card_image FontAwesomeIconView {
+    -fx-fill: #F5F7F8;
+}
+
+.doctor_card_image Text {
+    -fx-fill: #F5F7F8;
+    -fx-font-size: 15;
+    -fx-font-family: Inter;
+    -fx-font-weight: bold;
+}
+
+.doctor_card_doctor_details {
+    -fx-background-color: #F5F7F8;
+    -fx-border-color: #17252A;
+    -fx-border-width: 2 0 2 0;
+    -fx-alignment: top_left;
+    -fx-padding: 30 0 0 45;
+    -fx-spacing: 10;
+}
+
+#doctor_name {
+    -fx-text-fill: #17252A;
+    -fx-font-size: 30;
+    -fx-font-family: Calibri;
+    -fx-font-weight: bold;
+}
+
+#doctor_spec {
+    -fx-text-fill: #17252A;
+    -fx-font-size: 22;
+    -fx-font-family: "Calibri Light";
+}
+
+.doctor_card_review {
+    -fx-background-color: #F5F7F8;
+    -fx-border-color: #17252A;
+    -fx-border-width: 2 2 2 0;
+    -fx-border-radius: 0 10 10 0;
+    -fx-alignment: center;
+}
+
+.doctor_card_review > Text {
+    -fx-fill: #17252A;
+    -fx-font-size: 22;
+    -fx-font-weight: bold;
+    -fx-font-family: Inter;
+}
+
+#doctor_review_point {
+    -fx-text-fill: #17252A;
+    -fx-font-size: 14;
+    -fx-font-family: Inter;
+}
+
+#doctor_total_view {
+    -fx-text-fill: #2B7A78;
+    -fx-font-size: 14;
+    -fx-font-family: Inter;
+}
+
+
+/* Feedback Form Container */
+.doctor_feedback_form_container {
+    -fx-background-color: #F5F7F8;
+}
+
+.doctor_form_title {
+    -fx-background-color: #17252A;
+    -fx-background-radius: 10 10 0 0;
+    -fx-border-color: #17252A;
+    -fx-border-width: 2 2 0 2;
+    -fx-border-radius: 10 10 0 0;
+    -fx-alignment: center;
+}
+
+.doctor_form_title Text {
+    -fx-fill: #F5F7F8;
+    -fx-font-family: Inter;
+    -fx-font-weight: bold;
+}
+
+.doctor_form_body {
+    -fx-background-color: #F5F7F8;
+    -fx-background-radius: 0 0 10 10;
+    -fx-border-color: #17252A;
+    -fx-border-width: 0 2 2 2;
+    -fx-border-radius: 0 0 10 10;
+    -fx-alignment: center_left;
+    -fx-spacing: 18;
+    -fx-padding: 0 25 0 25;
+}
+
+.doctor_form_body TextField {
+    -fx-pref-width: 350;
+    -fx-pref-height: 50;
+    -fx-background-color: #F5F7F8;
+    -fx-text-fill: #17252A;
+    -fx-font-size: 15;
+    -fx-font-family: Inter;
+    -fx-border-color: #17252A;
+    -fx-prompt-text-fill: #17252A;
+    -fx-effect: dropshadow(three-pass-box, #17252A, 3, 0, 0, 3);
+}
+
+.doctor_form_body TextArea {
+    -fx-pref-width: 350;
+    -fx-pref-height: 150;
+    -fx-background-color: #F5F7F8;
+    -fx-text-fill: #17252A;
+    -fx-font-size: 15;
+    -fx-font-family: Inter;
+    -fx-border-color: #17252A;
+    -fx-prompt-text-fill: #17252A;
+    -fx-effect: dropshadow(three-pass-box, #17252A, 3, 0, 0, 3);
+}
+
+/* slider here */
+
+
+.doctor_form_body Button {
+    -fx-pref-width: 350;
+    -fx-pref-height: 50;
+    -fx-background-color: #17252A;
+    -fx-background-radius: 5;
+    -fx-text-fill: #F5F7F8;
+    -fx-font-size: 15;
+    -fx-font-family: Inter;
+    -fx-font-weight: bold;
+    -fx-border-color: #17252A;
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+}
+
+.doctor_form_body Button:hover {
+    -fx-effect: dropshadow(three-pass-box, #17252A, 3, 0, 0, 3);
+    -fx-cursor: hand;
+}
+
+.err_msg {
+    -fx-text-fill: #CC0000;
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-font-family: Inter;
+}
+
+/* Feedbacks Container */
+.doctor_feedback_container {
+    -fx-border-radius: 10 10 0 0;
+    -fx-border-color: #17252A;
+    -fx-border-width: 2;
+    -fx-background-color: #F5F7F8;
+    -fx-background-radius: 10 10 0 0;
+}
+
+/* Admin */
+#delete_doctor {
+    -fx-pref-width: 350;
+    -fx-pref-height: 50;
+    -fx-background-color: #F5F7F8;
+    -fx-background-radius: 5;
+    -fx-text-fill: #CC0000;
+    -fx-font-size: 15;
+    -fx-font-family: Inter;
+    -fx-font-weight: bold;
+    -fx-border-color: #CC0000;
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+}
+
+#delete_doctor:hover {
+    -fx-effect: dropshadow(three-pass-box, #17252A, 3, 0, 0, 3);
+    -fx-cursor: hand;
+}

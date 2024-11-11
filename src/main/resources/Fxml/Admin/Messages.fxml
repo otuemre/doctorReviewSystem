@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="670.0" prefWidth="1366.0" styleClass="contact_us_page" stylesheets="@../../Styles/ContactUs.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gp.doctorreview.Controllers.Admin.MessagesController">
+    <Text layoutX="280.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Messages" AnchorPane.leftAnchor="280.0" AnchorPane.topAnchor="14.0" />
+    <VBox fillWidth="false" layoutX="100.0" layoutY="85.0" prefHeight="550.0" prefWidth="500.0" styleClass="contact_us_container" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="85.0">
+        <TextField fx:id="name_fld" promptText="Name *" />
+        <TextField fx:id="email_fld" promptText="Email *" />
+      <TextField fx:id="message_title_fld" promptText="Message Title *" />
+        <TextArea fx:id="msg_area" prefHeight="200.0" prefWidth="200.0" promptText="Message Context *" />
+    </VBox>
+   <ListView fx:id="messages_listview" layoutX="14.0" layoutY="85.0" prefHeight="550.0" prefWidth="700.0" styleClass="messages_listview" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="90.0" />
+</AnchorPane>

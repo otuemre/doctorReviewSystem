@@ -1,0 +1,90 @@
+.manage_page {
+    -fx-background-color: #F5F7F8;
+}
+
+.manage_page VBox {
+    -fx-background-color: #F5F7F8;
+    -fx-alignment: center_left;
+    -fx-spacing: 15;
+    -fx-padding: 10 20 0 20;
+}
+
+.manage_page TextField {
+    -fx-pref-width: 350;
+    -fx-pref-height: 50;
+    -fx-background-color: #F5F7F8;
+    -fx-text-fill: #17252A;
+    -fx-font-size: 15;
+    -fx-font-family: Inter;
+    -fx-border-color: #17252A;
+    -fx-prompt-text-fill: #17252A;
+    -fx-effect: dropshadow(three-pass-box, #17252A, 3, 0, 0, 3);
+}
+
+.manage_page Button {
+    -fx-pref-width: 350;
+    -fx-pref-height: 50;
+    -fx-background-color: #17252A;
+    -fx-background-radius: 5;
+    -fx-text-fill: #F5F7F8;
+    -fx-font-size: 15;
+    -fx-font-family: Inter;
+    -fx-font-weight: bold;
+    -fx-border-color: #17252A;
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+}
+
+.manage_page Button:hover {
+    -fx-effect: dropshadow(three-pass-box, #17252A, 3, 0, 0, 3);
+    -fx-cursor: hand;
+}
+
+#delete_btn {
+    -fx-background-color: #F5F7F8;
+    -fx-text-fill: #CC0000;
+    -fx-border-color: #CC0000;
+}
+
+#delete_btn:hover {
+    -fx-effect: dropshadow(three-pass-box, #17252A, 3, 0, 0, 3);
+    -fx-cursor: hand;
+}
+
+/* Table View Styles */
+.manage_page TableView {
+    -fx-background-color: #F5F7F8;
+}
+
+.manage_page > TableView .column-header {
+    -fx-background-color: #17252A;
+    -fx-text-fill: #F5F7F8;
+    -fx-font-size: 18;
+    -fx-wrap-text: true;
+    -fx-font-family: Calibri;
+    -fx-font-weight: bold;
+}
+
+.manage_page TableView .table-row-cell {
+    -fx-background-color: #F5F7F8;
+    -fx-text-fill: #17252A;
+    -fx-font-size: 13;
+    -fx-wrap-text: true;
+    -fx-font-family: "Calibri Light";
+    -fx-font-weight: normal;
+}
+
+.manage_page TableView .table-row-cell:selected {
+    -fx-background-color: #DEF2F1;
+}
+
+.manage_page TableView .table-cell {
+    -fx-alignment: center;
+}
+
+.err_msg {
+    -fx-text-fill: #CC0000;
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-font-family: Inter;
+}
